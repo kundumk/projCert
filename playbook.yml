@@ -1,5 +1,5 @@
 ---
-- hosts: kslave1
+- hosts: all
   become: true
   tasks:
     - name: install dependencies
